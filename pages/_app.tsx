@@ -3,6 +3,7 @@ import type { NextPage } from 'next';
 import type { AppProps } from 'next/app';
 import type { ReactElement, ReactNode } from 'react';
 import React from 'react';
+import '../styles/global.css';
 
 React.useLayoutEffect = React.useEffect;
 

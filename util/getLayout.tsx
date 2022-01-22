@@ -47,7 +47,7 @@ export const getLayout = (page: ReactElement) => {
             </Menu.Item>
           </Menu>
         </Sider>
-        <Content>{page}</Content>
+        <Content className={style.internalcontent}>{page}</Content>
       </Layout>
     </Layout>
   );
