@@ -9,7 +9,6 @@
 }
 
 .logo > span > svg {
-  fill: grey;
   width: 16px;
   height: 16px;
 }
@@ -17,8 +16,4 @@
 .headername {
   color: rgba(255, 255, 255, 0.5);
   font-size: 24px;
-}
-
-.menuicon {
-  margin-right: 8px;
 }
