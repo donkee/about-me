@@ -12,7 +12,11 @@ const About = () => {
           <Card
             title={'Typescript'}
             extra={
-              <a href={'https://www.typescriptlang.org/'} target={'_blank'}>
+              <a
+                href={'https://www.typescriptlang.org/'}
+                target={'_blank'}
+                rel={'noreferrer'}
+              >
                 <Image
                   src={'./ts-logo-128.svg'}
                   height={32}
@@ -32,7 +36,11 @@ const About = () => {
           <Card
             title={'React'}
             extra={
-              <a href={'https://reactjs.org/'} target={'_blank'}>
+              <a
+                href={'https://reactjs.org/'}
+                target={'_blank'}
+                rel={'noreferrer'}
+              >
                 <Image
                   src={'./react-logo.svg'}
                   height={32}
@@ -52,7 +60,7 @@ const About = () => {
           <Card
             title={'Java'}
             extra={
-              <a href={'https://dev.java'} target={'_blank'}>
+              <a href={'https://dev.java'} target={'_blank'} rel={'noreferrer'}>
                 <Image
                   src={
                     'https://dev.java/assets/images/java-affinity-logo-icode-lg.png'
@@ -73,7 +81,11 @@ const About = () => {
           <Card
             title={'Spring'}
             extra={
-              <a href={'https://spring.io/'} target={'_blank'}>
+              <a
+                href={'https://spring.io/'}
+                target={'_blank'}
+                rel={'noreferrer'}
+              >
                 <Image
                   src={
                     'https://spring.io/images/projects/spring-edf462fec682b9d48cf628eaf9e19521.svg'
@@ -102,6 +114,7 @@ const About = () => {
                   'https://www.oreilly.com/library/view/lean-ux/9781449366834/'
                 }
                 target={'_blank'}
+                rel={'noreferrer'}
               >
                 <Image
                   src={'./UX.svg'}
@@ -122,7 +135,11 @@ const About = () => {
           <Card
             title={'React'}
             extra={
-              <a href={'https://reactjs.org/'} target={'_blank'}>
+              <a
+                href={'https://reactjs.org/'}
+                target={'_blank'}
+                rel={'noreferrer'}
+              >
                 <Image
                   src={'./react-logo.svg'}
                   height={32}
@@ -142,7 +159,7 @@ const About = () => {
           <Card
             title={'Java'}
             extra={
-              <a href={'https://dev.java'} target={'_blank'}>
+              <a href={'https://dev.java'} target={'_blank'} rel={'noreferrer'}>
                 <Image
                   src={
                     'https://dev.java/assets/images/java-affinity-logo-icode-lg.png'
@@ -163,7 +180,11 @@ const About = () => {
           <Card
             title={'Spring'}
             extra={
-              <a href={'https://spring.io/'} target={'_blank'}>
+              <a
+                href={'https://spring.io/'}
+                target={'_blank'}
+                rel={'noreferrer'}
+              >
                 <Image
                   src={
                     'https://spring.io/images/projects/spring-edf462fec682b9d48cf628eaf9e19521.svg'

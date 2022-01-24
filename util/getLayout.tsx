@@ -82,6 +82,7 @@ export const getLayout = (page: ReactElement) => {
               <a
                 href="https://docs.google.com/document/d/12yQzPHiOq3zO4lpi6zgHdqe447s0iKuPvBV5_YU7uT0/edit?usp=sharing"
                 target={'_blank'}
+                rel={'noreferrer'}
               >
                 Résumé
               </a>
@@ -97,7 +98,11 @@ export const getLayout = (page: ReactElement) => {
               }
               style={{ paddingLeft: isCollapsed ? 32 : undefined }}
             >
-              <a href="https://github.com/donkeedong" target={'_blank'}>
+              <a
+                href="https://github.com/donkeedong"
+                target={'_blank'}
+                rel={'noreferrer'}
+              >
                 My GitHub
               </a>
             </Menu.Item>
