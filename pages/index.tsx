@@ -18,6 +18,7 @@ const Home = () => {
               src="./me_avatar.png"
               style={{ width: avatarSize }}
               alt={'pic of me'}
+              preview={false}
             />
           }
         />

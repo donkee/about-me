@@ -1,4 +1,9 @@
-import { GithubOutlined, HomeTwoTone, MehTwoTone } from '@ant-design/icons';
+import {
+  GithubOutlined,
+  HomeTwoTone,
+  IdcardTwoTone,
+  MehTwoTone
+} from '@ant-design/icons';
 import { Menu } from 'antd';
 import Avatar from 'antd/lib/avatar/avatar';
 import Layout, { Content, Header } from 'antd/lib/layout/layout';
@@ -61,6 +66,25 @@ export const getLayout = (page: ReactElement) => {
               style={{ paddingLeft: isCollapsed ? 32 : undefined }}
             >
               <Link href="/about">About Me</Link>
+            </Menu.Item>
+            <Menu.Item
+              key={'resume'}
+              icon={
+                <IdcardTwoTone
+                  twoToneColor={'#eb2f96'}
+                  style={{
+                    marginRight: isCollapsed ? 8 : undefined
+                  }}
+                />
+              }
+              style={{ paddingLeft: isCollapsed ? 32 : undefined }}
+            >
+              <a
+                href="https://docs.google.com/document/d/12yQzPHiOq3zO4lpi6zgHdqe447s0iKuPvBV5_YU7uT0/edit?usp=sharing"
+                target={'_blank'}
+              >
+                Résumé
+              </a>
             </Menu.Item>
             <Menu.Item
               key={'github'}
